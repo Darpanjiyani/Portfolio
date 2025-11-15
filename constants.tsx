@@ -41,7 +41,7 @@ export const EXPERIENCES: Experience[] = [
     company: 'Cerebulb',
     role: 'Jr. Data Scientist',
     location: 'Gujarat, India',
-    duration: 'January 2023 - December 2023',
+    duration: 'January 2022 - December 2023',
     description: [
       'Trained ML models with TensorFlow and Scikit-Learn to predict equipment failures with 25% higher accuracy, reducing maintenance costs by 15%.',
       'Processed 1M+ time-series sensor records in SQL to prepare high-quality data for predictive analytics.',
