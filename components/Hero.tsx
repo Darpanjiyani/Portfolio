@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
             Hi, I'm Darpan Jiyani
           </h1>
           <p className="text-xl md:text-2xl text-medium mb-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            A Data Scientist skilled in building intelligent data systems for faster analytics and decision-making.
+            A Data Engineer skilled in building intelligent data systems for faster analytics and decision-making.
           </p>
           <div 
             className="flex justify-center items-center space-x-6 mb-10 animate-fade-in-up" 
