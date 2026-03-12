@@ -17,10 +17,7 @@ const About: React.FC = () => {
         </div>
         <div className="md:col-span-3">
           <p className="text-lg text-medium mb-6">
-            Data Scientist skilled in building intelligent data systems for faster analytics and decision-making. Experienced in ETL automation, ML modeling, and Power BI-based dashboards. 
-          </p>
-          <p className="text-lg text-medium mb-8">
-            Application-oriented with hands-on work across Python, SQL, and AWS, delivering measurable process efficiency and operational impact.
+            I’m a Data Engineer focused on building scalable, reliability-driven data systems. At Keysight, I designed an incremental ETL pipeline processing 2M+ records, reducing dashboard latency by 98% and improving pipeline reliability through automated monitoring. At Cerebulb, I developed predictive time-series models across 100+ sensor streams to detect early degradation and improve system uptime by 12%. I’m passionate about applying data engineering and predictive analytics to improve field quality and operational decision-making at scale.
           </p>
           <h3 className="text-2xl font-bold text-light mb-6 mt-8">Technical Skills</h3>
           <div className="grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-6">
