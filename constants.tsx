@@ -30,11 +30,11 @@ export const EXPERIENCES: Experience[] = [
     location: 'Santa Rosa, CA',
     duration: 'May 2024 - Present',
     description: [
-      'Engineered an automated ETL pipeline using Python to extract and transform PRISM data into SQL Server, cutting dashboard refresh time by 90% and enabling near real-time analytics for fab engineers.',
-      'Integrated a Power BI Tool Lookahead system that auto-fetches upcoming tools and visualizes their live status with color codes.',
-      'Developed an AI-driven workflow in Power Automate to turn supervisor form inputs into structured shift reports, saving 10+ hours weekly of manual effort.',
-      'Automated key performance metrics to help track fab performance and improve decision-making.',
-      'Implemented a real-time logging system to track pipeline execution and automatically flag errors or interruptions.'
+      'Built a scalable Python-based incremental ETL pipeline processing 2M+ production records using timestamp-based change detection, materializing indexed SQL Server tables and reducing Power BI dashboard refresh latency by 98%.',
+      'Developed transformation and key-standardization logic using Power Query (M) to reconcile inconsistent tool identifiers across relational tables, enabling accurate joins and reliable mapping of tool statuses for forecasting analytics.',
+      'Partnered with operations teams to automate shift-level reporting using Power Automate, standardizing daily reporting workflows across 10 supervisors, saving 30 minutes per supervisor per shift and reducing manual reporting errors.',
+      'Implemented DAX-based 7/30/90-day rolling averages to analyze shift-level throughput and uptime trends, enabling data-driven identification of underperforming shifts and supporting proactive production adjustment',
+      'Designed a scalable ETL monitoring and data validation framework using Python alerts and SQL-based data quality checks, reducing mean time to detect pipeline failures from hours to minutes.'
     ],
   },
   {
@@ -43,10 +43,10 @@ export const EXPERIENCES: Experience[] = [
     location: 'Gujarat, India',
     duration: 'January 2022 - December 2023',
     description: [
-      'Trained ML models with TensorFlow and Scikit-Learn to predict equipment failures with 25% higher accuracy, reducing maintenance costs by 15%.',
-      'Processed 1M+ time-series sensor records in SQL to prepare high-quality data for predictive analytics.',
-      'Deployed and maintained models on AWS servers, ensuring reproducibility and scalable performance.',
-      'Designed dashboards in Tableau that visualized asset performance and failure risk, helping plant engineers make faster, data-backed maintenance decisions.'
+      'Analyzed 100+ industrial sensor streams using multivariate time-series techniques to detect early degradation signals and abnormal operating patterns, enabling proactive reliability interventions and improving system uptime by 12%.',
+      'Developed predictive time-series regression models to forecast performance drift and dynamically identify anomaly thresholds, reducing unplanned downtime and supporting data-driven maintenance planning.',
+      'Engineered interactive diagnostic dashboards using Plotly and Streamlit to visualize temperature, pressure, and flow trends, enabling rapid root-cause analysis and cross-equipment performance comparison.',
+      'Automated KPI aggregation and anomaly reporting workflows, standardizing reliability metrics across engineering teams and improving data accessibility for operational decision-making.'
     ],
   },
 ];
