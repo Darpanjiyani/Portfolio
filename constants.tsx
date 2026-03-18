@@ -1,4 +1,6 @@
+import projectImg from './assets/project.png.png';
 import type { SkillCategory, Experience, Project, Education } from './types';
+
 
 export const SKILLS: SkillCategory[] = [
   {
@@ -77,7 +79,7 @@ export const PROJECTS: Project[] = [
     title: "Retail Sales Analytics Platform",
     description: "Built a scalable analytics transformation layer on Databricks using modular dbt models with ref() and source() to turn raw data into production-ready Gold tables. Created reusable Jinja macros to standardize logic across models, improving maintainability and reducing repetitive SQL. Also set up GitHub Actions–based CI/CD pipelines with automated dbt builds, testing, and separate Dev/Prod catalogs to ensure secure and reliable deployment to production.",
     tags: ["dbt", "Databricks", "SQL", "Jinja", "GitHub Actions", "CI/CD", "Data Warehousing"],
-    imageUrl: 'D:\\personal-portfolio (1)\\personal-portfolio (1)\\assets\\project.png.png',
+    imageUrl: projectImg,
     repoUrl: 'https://github.com/Darpanjiyani/Retail-Sales-Analytics-Platform---dbt',
   },
   {
