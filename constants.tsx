@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
   {
     title: "E-Commerce Analytics Platform",
     description: "Built an end-to-end E-Commerce Analytics Platform on Databricks using PySpark and a Bronze–Silver–Gold Lakehouse architecture to process high-volume transactional data for KPI reporting and operational monitoring. Enhanced performance with Delta Lake partitioning and incremental ingestion for faster sales analysis across product and customer segments. Automated reliable data delivery through Databricks Workflows with built-in validation and monitoring for downstream analytics and reporting.",
-    tags: ["Databricks", "PySpark", "Delat Lake", "Databricks Workflows", "Lakehouse Architecture", "ETL/ELT"],
+    tags: ["Databricks", "PySpark", "Delta Lake", "Databricks Workflows", "Lakehouse Architecture", "ETL/ELT"],
     imageUrl: 'https://synder.com/blog/wp-content/uploads/sites/5/2022/07/e-commerce-analytics-tools-800x500.png',
     repoUrl: 'https://github.com/Darpanjiyani/E-Commerce-Analytics-Platform',
   },
