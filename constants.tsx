@@ -54,6 +54,20 @@ export const EXPERIENCES: Experience[] = [
 ];
 
 export const PROJECTS: Project[] = [
+    {
+    title: "Retail Sales Analytics Platform",
+    description: "Built a scalable analytics transformation layer on Databricks using modular dbt models with ref() and source() to turn raw data into production-ready Gold tables. Created reusable Jinja macros to standardize logic across models, improving maintainability and reducing repetitive SQL. Also set up GitHub Actions–based CI/CD pipelines with automated dbt builds, testing, and separate Dev/Prod catalogs to ensure secure and reliable deployment to production.",
+    tags: ["dbt", "Databricks", "SQL", "Jinja", "GitHub Actions", "CI/CD", "Data Warehousing"],
+    imageUrl: projectImg,
+    repoUrl: 'https://github.com/Darpanjiyani/Retail-Sales-Analytics-Platform---dbt',
+  },
+  {
+    title: "E-Commerce Analytics Platform",
+    description: "Built an end-to-end E-Commerce Analytics Platform on Databricks using PySpark and a Bronze–Silver–Gold Lakehouse architecture to process high-volume transactional data for KPI reporting and operational monitoring. Enhanced performance with Delta Lake partitioning and incremental ingestion for faster sales analysis across product and customer segments. Automated reliable data delivery through Databricks Workflows with built-in validation and monitoring for downstream analytics and reporting.",
+    tags: ["Databricks", "PySpark", "Delat Lake", "Databricks Workflows", "Lakehouse Architecture", "ETL/ELT"],
+    imageUrl: 'https://synder.com/blog/wp-content/uploads/sites/5/2022/07/e-commerce-analytics-tools-800x500.png',
+    repoUrl: 'https://github.com/Darpanjiyani/E-Commerce-Analytics-Platform',
+  },
   {
     title: 'Multimodal LLM for Cancer Pathology Classification',
     description: 'Developed a dual-pipeline AI system combining image and text reasoning for 4-class cancer pathology diagnosis. Utilized BLIP to caption histopathology images and FAISS retrieval + GPT-3.5 for few-shot RAG classification. The MobileNetV2 + caption fusion model achieved 80% accuracy and 0.96 ROC-AUC, with efficiency optimized by LoRA fine-tuning.',
@@ -74,22 +88,7 @@ export const PROJECTS: Project[] = [
     tags: ['Python', 'SQL', 'Power BI', 'Tableau'],
     imageUrl: 'https://s.yimg.com/ny/api/res/1.2/.FsKXDo5UQoTPo6FeXv_Kw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/realtor_com_468/0790533307c2dcf6980687e23f459c44',
     repoUrl: 'https://github.com/Darpanjiyani/Comprehensive-Analysis-of-Billionaire-s-Wealth',
-  },
-  {
-    title: "Retail Sales Analytics Platform",
-    description: "Built a scalable analytics transformation layer on Databricks using modular dbt models with ref() and source() to turn raw data into production-ready Gold tables. Created reusable Jinja macros to standardize logic across models, improving maintainability and reducing repetitive SQL. Also set up GitHub Actions–based CI/CD pipelines with automated dbt builds, testing, and separate Dev/Prod catalogs to ensure secure and reliable deployment to production.",
-    tags: ["dbt", "Databricks", "SQL", "Jinja", "GitHub Actions", "CI/CD", "Data Warehousing"],
-    imageUrl: projectImg,
-    repoUrl: 'https://github.com/Darpanjiyani/Retail-Sales-Analytics-Platform---dbt',
-  },
-  {
-    title: "E-Commerce Analytics Platform",
-    description: "Built an end-to-end E-Commerce Analytics Platform on Databricks using PySpark and a Bronze–Silver–Gold Lakehouse architecture to process high-volume transactional data for KPI reporting and operational monitoring. Enhanced performance with Delta Lake partitioning and incremental ingestion for faster sales analysis across product and customer segments. Automated reliable data delivery through Databricks Workflows with built-in validation and monitoring for downstream analytics and reporting.",
-    tags: ["Databricks", "PySpark", "Delat Lake", "Databricks Workflows", "Lakehouse Architecture", "ETL/ELT"],
-    imageUrl: 'https://synder.com/blog/wp-content/uploads/sites/5/2022/07/e-commerce-analytics-tools-800x500.png',
-    repoUrl: 'https://github.com/Darpanjiyani/E-Commerce-Analytics-Platform',
   }
-
 ];
 
 export const EDUCATION: Education[] = [
