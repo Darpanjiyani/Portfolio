@@ -17,7 +17,7 @@ const About: React.FC = () => {
         </div>
         <div className="md:col-span-3">
           <p className="text-lg text-medium mb-6">
-            I’m a Data Engineer focused on building scalable, reliability-driven data systems. At Keysight, I designed an incremental ETL pipeline processing 2M+ records, reducing dashboard latency by 98% and improving pipeline reliability through automated monitoring. At Cerebulb, I developed predictive time-series models across 100+ sensor streams to detect early degradation and improve system uptime by 12%. I’m passionate about applying data engineering and predictive analytics to improve field quality and operational decision-making at scale.
+            Hey, I’m Darpan. I work at the intersection of data engineering, analytics, and machine learning, building systems that turn complex data into reliable insights. I enjoy creating scalable pipelines, predictive models, and data-driven solutions that improve operational decision-making. Curiosity drives my work, and I’m always excited to solve problems where data, systems, and intelligent decisions come together.
           </p>
           <h3 className="text-2xl font-bold text-light mb-6 mt-8">Technical Skills</h3>
           <div className="grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-6">
