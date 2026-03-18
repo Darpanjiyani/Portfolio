@@ -87,6 +87,7 @@ export const PROJECTS: Project[] = [
     imageUrl: 'https://synder.com/blog/wp-content/uploads/sites/5/2022/07/e-commerce-analytics-tools-800x500.png',
     repoUrl: 'https://github.com/Darpanjiyani/E-Commerce-Analytics-Platform',
   }
+
 ];
 
 export const EDUCATION: Education[] = [
