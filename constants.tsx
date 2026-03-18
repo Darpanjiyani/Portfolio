@@ -1,7 +1,6 @@
 import projectImg from './assets/project.png.png';
 import type { SkillCategory, Experience, Project, Education } from './types';
 
-
 export const SKILLS: SkillCategory[] = [
   {
     category: 'Languages',
@@ -12,18 +11,27 @@ export const SKILLS: SkillCategory[] = [
     technologies: ['Pandas', 'Numpy', 'Scikit-Learn', 'TensorFlow', 'PyTorch', 'Matplotlib', 'Seaborn', 'Plotly'],
   },
   {
-    category: 'Data & Cloud',
-    technologies: ['Power BI', 'Tableau', 'MySQL', 'PostgreSQL', 'MongoDB', 'AWS (EMR, S3)', 'Spark', 'Hadoop'],
+    category: 'Data Engineering',
+    technologies: ['PySpark', 'kafka', 'Delta Lake', 'Databricks', 'dbt', 'Apache Airflow', 'Batch & Streaming ETL', 'Incremental Processing', 'Data Validation', 'Schema Enforcement', 
+      'Fault Tolerance', 'Data Modeling'],
   },
   {
-    category: 'Tools',
-    technologies: ['Git', 'GitHub', 'Jupyter', 'Docker'],
+    category: 'AI/ML',
+    technologies: ['Time-Series Forecasting', 'Regression Modeling', 'Classification', 'Clustering', 'Natural Language Processing (NLP)', 'Computer Vision', 'Model Evaluation & Tuning'],
   },
   {
-    category: 'Core Skills',
-    technologies: ['Data Cleaning', 'Feature Engineering', 'Model Deployment', 'Statistical Analysis', 'Automation', 'A/B Testing'],
+    category: 'Database & Cloud',
+    technologies: ['Snowflake', 'SQL Server', 'PostgreSQL', 'MySQL', 'Google BigQuery', 'AWS (EMR, S3, EC2)'],
+  },
+  {
+    category: 'DevOps & Tools',
+    technologies: ['Git', 'GitHub', 'Jupyter', 'Docker', 'CI/CD Pipelines'],
+  },
+  {
+    category: 'Analytics & BI',
+    technologies: ['Power BI', 'Tableau', 'Excel', 'Power Automate', 'DAX', 'Power Query (M)'],
   }
-];
+]
 
 export const EXPERIENCES: Experience[] = [
   {
@@ -57,7 +65,7 @@ export const PROJECTS: Project[] = [
     {
     title: "Retail Sales Analytics Platform",
     description: "Built a scalable analytics transformation layer on Databricks using modular dbt models with ref() and source() to turn raw data into production-ready Gold tables. Created reusable Jinja macros to standardize logic across models, improving maintainability and reducing repetitive SQL. Also set up GitHub Actions–based CI/CD pipelines with automated dbt builds, testing, and separate Dev/Prod catalogs to ensure secure and reliable deployment to production.",
-    tags: ["dbt", "Databricks", "SQL", "Jinja", "GitHub Actions", "CI/CD", "Data Warehousing"],
+    tags: ["dbt", "Databricks", "SQL", "Jinja", "Macros", "GitHub Actions", "CI/CD", "Data Warehousing"],
     imageUrl: projectImg,
     repoUrl: 'https://github.com/Darpanjiyani/Retail-Sales-Analytics-Platform---dbt',
   },
